@@ -1,4 +1,7 @@
 import Fastify from "fastify";
+// Note: @vercel/analytics package is installed but not actively integrated
+// as this is a backend API. Vercel Web Analytics requires a browser environment.
+// For API monitoring, use Vercel's observability tools (Logs, Monitoring) instead.
 
 const app = Fastify();
 

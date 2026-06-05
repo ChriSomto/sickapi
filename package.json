@@ -12,6 +12,7 @@
     "bench:all:prod": "node bench.js all prod"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "fastify": "^4.28.1"
   },
   "devDependencies": {
