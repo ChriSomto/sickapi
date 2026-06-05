@@ -1,0 +1,21 @@
+{
+  "name": "serverless-bench",
+  "version": "1.0.0",
+  "description": "Fastify serverless API benchmarked with autocannon",
+  "type": "module",
+  "scripts": {
+    "dev": "node api/index.js",
+    "bench:light": "node bench.js light",
+    "bench:medium": "node bench.js medium",
+    "bench:heavy": "node bench.js heavy",
+    "bench:all:local": "node bench.js all local",
+    "bench:all:prod": "node bench.js all prod"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1"
+  },
+  "devDependencies": {
+    "autocannon": "^7.15.0",
+    "vercel": "^37.4.2"
+  }
+}
